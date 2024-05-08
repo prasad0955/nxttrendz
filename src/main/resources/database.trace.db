@@ -1,0 +1,6 @@
+2024-04-21 17:08:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found (this database is empty); SQL statement:
+select product0_.productid as producti1_0_, product0_.price as price2_0_, product0_.productname as productn3_0_ from product product0_ [42104-214]
+2024-04-21 17:09:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEW" not found (this database is empty); SQL statement:
+select review0_.reviewid as reviewid1_1_, review0_.productid as producti4_1_, review0_.rating as rating2_1_, review0_.reviewcontent as reviewco3_1_ from review review0_ [42104-214]
